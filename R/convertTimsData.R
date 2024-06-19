@@ -28,7 +28,7 @@
 convertTimsData <- function(input_path,
                             mode = c("centroid", "raw"),
                             compression = c("none", "zlib"),
-                            exclude_mobility = FALSE,
+                            exclude_mobility = TRUE,
                             enconding = c("32", "64"),
                             profile_bins = 0,
                             imzml_mode = c("processed", "continuous"),
